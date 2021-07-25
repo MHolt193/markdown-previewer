@@ -1,7 +1,7 @@
 import React from "react";
-import marked from "marked";
 import Editor from "./Components/Editor";
 import Preview from "./Components/Preview";
+import Footer from "./Components/Footer"
 import "./App.css";
 
 class App extends React.Component {
@@ -24,6 +24,7 @@ class App extends React.Component {
         <h1>MH Markdown Previewer</h1>
         <Editor value={this.state.markdown} onChange={this.handleChange} />
         <Preview markdown={this.state.markdown} />
+        <Footer />
       </div>
     );
   }
