@@ -2,7 +2,7 @@ import React from "react";
 import Editor from "./Components/Editor";
 import Preview from "./Components/Preview";
 import Footer from "./Components/Footer"
-import "./App.css";
+
 
 class App extends React.Component {
   constructor(props) {
