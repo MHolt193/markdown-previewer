@@ -12,9 +12,9 @@ class App extends React.Component {
     }
     this.handleChange = this.handleChange.bind(this)
   }
-    handleChange (e){
+    handleChange (event){
       this.setState({
-        markdown: e.target.value
+        markdown: event.target.value
       });
     }
 
